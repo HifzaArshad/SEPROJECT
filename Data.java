@@ -4,6 +4,7 @@ class Data{
 		System.out.println("Talha's ID is 11");
 		System.out.println("Sohail's ID is 12");
 		System.out.print("Mansoor's ID is 9");
+		System.out.print("Hifza's ID is 10")
 		System.out.print("Enter Student ID:");
 		int id = in.nextInt();
 			if (id == 11){
@@ -18,6 +19,13 @@ class Data{
 				System.out.println("Name:"+name);
 				System.out.println("Roll no is:"+rollno);
 			}
+			if (id == 10){
+				String name = "Hifza";
+				String rollno = "2k17/csee/43";
+				System.out.println("Name:"+name);
+				System.out.println("Roll no is:"+rollno);
+			}
+			
 	}
 	public static void main(String str[]){
 		Data d = new Data();
